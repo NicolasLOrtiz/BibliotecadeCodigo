@@ -1,0 +1,43 @@
+/* 
+    Azul-escuro: #2b2e4a
+    Vermelho: #e84545
+    Vinho: #903749
+    Roxo: #53354a
+*/
+/* Global */
+
+
+body {
+    margin: 0;
+}
+
+/* Barra de Menu */
+.menu-navegacao {
+    background-color: #2b2e4a;
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+}
+
+.menu-row li {
+    float: right;
+    list-style: none;
+
+}
+
+.menu-row a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Apresentação */
+
+/* Competências */
+
+/* Projetos */
+
+/* Contato */
+
+/* Footer */

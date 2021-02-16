@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background: #232323;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 900px;
+  height: 600px;
+  background: #fff;
+  margin: 20px;
+  border-radius: 40px;
+}
+
+.container .imgBx {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  background: #7ea04d;
+  border-radius: 40px;
+}
+.container .imgBx::before {
+  content: "Nike";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #000;
+  opacity: 0.1;
+  font-size: 8em;
+  font-weight: 800;
+}
+.container .imgBx img {
+  position: relative;
+  width: 700px;
+  transform: rotate(-30deg);
+  left: -100px;
+}
+
+.container .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.container .details h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  line-height: 0.8em;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container .details h2 span {
+  font-size: 0.4em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #999999;
+}
+
+.container .details p {
+  max-width: 85%;
+  margin-left: 15%;
+  color: #333;
+  font-size: 15px;
+}
+
+.container .details h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  color: #a2a2a2;
+  float: left;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container .details button {
+  background: #7ea04d;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  padding: 15px 20px;
+  margin-top: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 40px;
+  float: right;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.container .details button:hover {
+  background: #364621;
+}
+
+@media (max-width: 1080px) {
+  .container {
+    height: auto;
+  }
+
+  .container .imgBx {
+    padding: 40px;
+    box-sizing: border-box;
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .container .imgBx img {
+    left: initial;
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+
+  .details {
+    width: 100% !important;
+    height: auto;
+    padding: 20px;
+  }
+
+  .container .details p {
+    max-width: 100%;
+    margin-left: 0;
+    color: #333;
+    font-size: 15px;
+  }
+}
