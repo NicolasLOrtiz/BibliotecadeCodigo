@@ -4,18 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cycle Tracks trail">
     <title>CTTG Site - Trail Reviews</title>
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" media="screen" href="css/main.css" />
+    <!-- Add HTML5 element suport to IE -->
+    <!-- Conditional comments -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-    <header id="mainHeader">
+    <header id="mainHeader" role="banner">
       <!-- NAVIGATION -->
       <h1>Cycle Tracks</h1>
       <p>you complete biking trail source</p>
-      <nav>
+      <nav role="navigation">
         <ul>
           <li><a href="#" title="Trail Blog">Trail Blog</a></li>
           <li><a href="#" title="Trail Reviews">Trail Reviews</a></li>
@@ -25,7 +28,7 @@
         </ul>
       </nav>
     </header>
-    <main id="trailReviews">
+    <main id="trailReviews" role="main">
       <header>
         <h2>Trail Reviews</h2>
         <p>
@@ -157,7 +160,7 @@
             web design, and the outdoors. Contact him at
             <a href="mailto:danw@cycletracks.org" title="email Dan!"
               >danw@cycletracks.org</a
-            ></address>
+            >or check out his <a href="#" rel="author"></a></address>
           
         </footer>
         <section>
@@ -188,7 +191,7 @@
     <section id="riderReviews">
       <!-- RIDER REVIEWS AND OJAI FACTS -->
       <h2>Rider Reviews</h2>
-      <article>
+      <article role="article">
         <header>
           <h3>Los Robles Trail</h3>
           <p class="byline">by Danny Keys</p>
@@ -237,7 +240,7 @@
           to going back in a few weeks to do the East trail as well!
         </p>
       </article>
-      <aside>
+      <aside role="complementary">
         <h3>Ojai Trail Facts</h3>
         <p>
           Ojai has over 200 miles of hiking and biking trails, with over 80
@@ -250,7 +253,7 @@
           maintaining the trails you know and love!
         </p>
       </aside>
-      <article>
+      <article role="article">
         <header>
           <h3>Copper Canyon Loop</h3>
           <p class="byline">by Shea Hansen</p>
@@ -307,17 +310,18 @@
         </p>
       </article>
     </section>
-    <aside id="adCopy">
+    <!-- Ad contents goes here -->
+    <aside id="adCopy" role="complementary">
       <!-- AD COPY -->
       <h3>Need a rental?</h3>
       <img src="img/bikes.jpg" alt="Melanie's Bikes" />
-      <p>Melanie's Bikes has you covered!</p>
+      <p> <a href="#" rel="nofollow external">Melanie's Bikes has you covered!</a></p>
       <p>
         If you're visiting Southern California and need a bike, give us a call!
         Free drop off and pick up.
       </p>
     </aside>
-    <footer id="pageFooter">
+    <footer id="pageFooter" role="contentinfo">
       <!-- CONTACT -->
       <div class="rightCol">
         <p><a href="#mainHeader">return to top</a></p>
@@ -335,7 +339,7 @@
       <div class="leftCol">
         <p>
          <small>all content &copy;copyright 2014 Cycle Tracks | please read our
-          <a href="#">terms of use</a></small>
+          <a href="#" rel="license">terms of use</a></small>
         </p>
         <p><b> Cycle Tracks</b></p>
         <address>
