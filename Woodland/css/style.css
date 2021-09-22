@@ -1,0 +1,290 @@
+/* Estilos gerais */
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  background: #f9e0ae;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img{
+    display: block;
+}
+
+.btn {
+  padding: 10px 30px;
+  background: #fc8621;
+  color: #000;
+  font-size: 36px;
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #c24914;
+  transition: 0.5s;
+}
+
+.btn.btn-preto:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.subtitulo {
+  font-family: Poppins, Georgia, "Times New Roman", Times, serif;
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 5px;
+  background: #c24914;
+  margin: 10px auto;
+}
+
+.img_media {
+  width: 300px;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fc8621;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.header_menu ul li a {
+  color: #000;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+  transition: 0.2s;
+}
+
+/* Introdução */
+.introducao {
+  width: 100%;
+  height: 500px;
+  background: url("../img/Banner.jpg") no-repeat;
+  background-size: cover;
+  margin-top: 105px;
+  text-align: center;
+}
+
+.introducao h1 {
+  margin-top: 73px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao h2 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 166px;
+}
+
+.quote-externo {
+  max-width: 360px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.quote-externo p {
+  font-style: italic;
+}
+
+.container h1:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 5px;
+  background: #c24914;
+  margin: 13px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+/* Produtos */
+.produtos {
+  padding: 40px 0;
+}
+
+.produtos_lista li {
+  text-align: center;
+}
+
+.produtos_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+}
+
+.produtos_lista li {
+  padding: 10px 20px;
+}
+.produtos_icone {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call p {
+  margin-bottom: 40px;
+}
+
+/* Portifólio */
+.sobre {
+  width: 100%;
+  height: 300px;
+  background: url("../img/Banner.jpg") no-repeat;
+  background-size: cover;
+  margin-top: 105px;
+  text-align: center;
+  color: #fff;
+}
+
+.sobre p {
+  margin-bottom: 50px;
+}
+
+.portifolio {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.portifolio .subtitulo {
+  color: #f9e0ae;
+}
+.portifolio .subtitulo {
+  color: #000;
+}
+.portifolio_lista li:last-child {
+  margin-top: 20px;
+}
+
+.portifolio .call p {
+  color: #f9e0ae;
+}
+
+/* Qualidade */
+.qualidade {
+    padding: 40px 0;
+}
+
+.qualidade svg{
+    margin: 20px auto;
+}
+
+.qualidade_lista{
+    padding-top: -10px;
+}
+
+.qualidade_lista li{
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade_lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+}
+
+.qualidade_lista li h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #c24914;
+    margin: 10px auto;
+}
+
+/* Quebra */
+
+.quebra {
+  width: 100%;
+  height: 200px;
+  background: url("../img/QuoteWoodland/BannerQuote.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.quebra .quote-externo{
+  max-width: 940px;
+  color: #fc8621;
+}
+
+.quote-externo p {
+  font-family: Poppins, sans-serif;
+  margin-top: 90px;
+  font-size: 36px;
+  font-style: normal;
+}
+
+.quote-externo p:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 5px;
+  background: #fff;
+  margin: 20px auto;
+}
