@@ -1,0 +1,26 @@
+/* Coolors Exported Palette - https://coolors.co/131313-232323-f6ae2d-7f0799-03a9f4-9bdc28-ebe9e9 */
+
+:root {
+  /* CSS HEX */
+  --eerie-black: #131313ff;
+  --eerie-black-2: #232323ff;
+  --honey-yellow: #f6ae2dff;
+  /* HOVER: #a76b00 */
+  --violet-ryb: #7f0799ff;
+  /* HOVER: 4f025f */
+  --blue-jeans: #03a9f4ff;
+  /* HOVER: 015c83 */
+  --sheen-green: #9bdc28ff;
+  /* HOVER: 5e9200 */
+  --platinum: #ebe9e9ff;
+  /* HOVER: 999090 */
+
+  /* CSS HSL */
+  --eerie-black: hsla(0, 0%, 7%, 1);
+  --eerie-black-2: hsla(0, 0%, 14%, 1);
+  --honey-yellow: hsla(39, 92%, 57%, 1);
+  --violet-ryb: hsla(289, 91%, 31%, 1);
+  --blue-jeans: hsla(199, 98%, 48%, 1);
+  --sheen-green: hsla(82, 72%, 51%, 1);
+  --platinum: hsla(0, 5%, 92%, 1);
+}

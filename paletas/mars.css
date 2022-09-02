@@ -1,0 +1,15 @@
+/* Coolors Exported Palette - https://coolors.co/cae00d-5218fa-f51400-e5e4e2 */
+
+/* CSS HEX */
+:root {
+  --bitter-lemon: #cae00dff;
+  --han-purple: #5218faff;
+  --red: #f51400ff;
+  --platinum: #e5e4e2ff;
+
+  /* CSS HSL */
+  --bitter-lemon: hsla(66, 89%, 46%, 1);
+  --han-purple: hsla(255, 96%, 54%, 1);
+  --red: hsla(5, 100%, 48%, 1);
+  --platinum: hsla(40, 5%, 89%, 1);
+}

@@ -1,0 +1,19 @@
+/* Coolors Exported Palette - https://coolors.co/cae00d-5218fa-f51400-e5e4e2-969cb3-363f5f */
+
+:root {
+  /* CSS HEX */
+  --bitter-lemon: #cae00dff;
+  --han-purple: #5218faff;
+  --red: #f51400ff;
+  --platinum: #e5e4e2ff;
+  --manatee: #969cb3ff;
+  --independence: #363f5fff;
+
+  /* CSS HSL */
+  --bitter-lemon: hsla(66, 89%, 46%, 1);
+  --han-purple: hsla(255, 96%, 54%, 1);
+  --red: hsla(5, 100%, 48%, 1);
+  --platinum: hsla(40, 5%, 89%, 1);
+  --manatee: hsla(228, 16%, 65%, 1);
+  --independence: hsla(227, 28%, 29%, 1);
+}
