@@ -61,6 +61,7 @@ document.querySelector('#app').innerHTML = `
 </h1>
 <div class="buttons">
 <a href="/components/loader/neumorphism-gradient-loader-ring-animation/">Neumorphism Gradient Loader Ring Animation</a>
+<a href="/components/loader/text-typing-loading-animation/">Text Typing Loading Animation</a>
 </div>
 
 <h1>
