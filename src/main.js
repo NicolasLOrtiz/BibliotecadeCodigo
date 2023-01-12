@@ -34,6 +34,7 @@ document.querySelector('#app').innerHTML = `
 <li><a href="/components/cards/ProductCard_Descr/">Product Card with description</a></li>
 <li><a href="/components/cards/ProductCard_Detail/">Product Card with details</a></li>
 <li><a href="/components/cards/ProductCard_UI/">Product Card with new UI</a></li>
+<li><a href="/components/cards/animated-service-section-card-ui-design/">Animated Service Section Card UI Design</a></li>
 </ul>
 
 <h1>
