@@ -55,6 +55,7 @@ document.querySelector('#app').innerHTML = `
 </h1>
 <ul class="buttons">
 <li><a href="/components/menus/dashboard-sidebar-menu/">Dashboard Sidebar Menu</a></li>
+<li><a href="/components/menus/responsive-navigation-bar/">Responsive Navigation Bar</a></li>
 </ul>
 
 <h1>
