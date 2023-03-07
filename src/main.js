@@ -26,6 +26,7 @@ document.querySelector('#app').innerHTML = `
 <li><a href="/components/buttons/magic-line-fill/">Magic Line Fill</a></li>
 <li><a href="/components/buttons/ellipsis-hover-effect/">Ellipsis Hover Effect</a></li>
 <li><a href="/components/buttons/advanced-css-button-hover-animation-effects/">Advanced CSS Button Hover Animation Effects</a></li>
+<li><a href="/components/buttons/glowing-gradient-button-border-animation/">CSS Glowing Gradient Button Border Animation Effects</a></li>
 </ul>
 
 <h1>Cards</h1>
