@@ -51,6 +51,13 @@ document.querySelector('#app').innerHTML = `
 <li><a href="/components/forms/contact/responsive-floating-placeholder/">Responsive Floating PlaceHolder</a></li>
 </ul>
 
+<h2>Inputs</h2>
+
+<h3>Email Validation</h3>
+<ul class="buttons">
+<li><a href="/components/forms/inputs/email-validation/">Email Validation</a></li>
+</ul>
+
 <h1>
   Menus
 </h1>
